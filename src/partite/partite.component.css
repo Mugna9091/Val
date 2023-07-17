@@ -1,0 +1,83 @@
+.all-page{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  width: 100%;
+  background-color: wheat;
+  z-index: 1030;
+  /*opacity: 0.5;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-page form{
+  z-index: 1040;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-partite{
+  width: 90%;
+  margin: 68px 5% 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--nav-secondary-color);
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.title-partite{
+  width: 100%;
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 2rem;
+  color: white;
+}
+
+.width-100{
+  width: 100%;
+}
+
+.wi-100{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wi-50{
+  width: 50%;
+  text-align: center;
+}
+
+.select-partite{
+  min-width: 30%;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.btn-partite{
+  margin-top: 10px;
+  min-width: 25%;
+  height: 30px;
+  background-color: #1A3151;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.margin-bottom{
+  margin-bottom: 10px;
+}
+
+.title-partite span{
+  color: #1A3151;
+}

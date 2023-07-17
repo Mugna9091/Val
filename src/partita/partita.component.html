@@ -1,0 +1,30 @@
+<div class="content-partite" *ngFor="let p of para">
+  <div class="width-100 title-partite">Partita del {{p['myDate']}}</div>
+  <div class="wi-100">
+    <div class="wi-50">
+      <div class="width-100 title-partite">Team 1</div>
+      <div *ngFor="let p of p['player1']">
+        {{p}}
+      </div>
+      <div class="width-100 title-partite">Marcatori</div>
+      <div *ngFor="let p of p['gol1']">
+        {{p}}
+      </div>
+    </div>
+    <div class="wi-50">
+      <div class="width-100 title-partite">Team 2</div>
+      <div *ngFor="let p of p['player2']">
+        {{p}}
+      </div>
+      <div class="width-100 title-partite">Marcatori</div>
+      <div *ngFor="let p of p['gol2']">
+        {{p}}
+      </div>
+    </div>
+  </div>
+  <div class="wi-100">
+    <div class="width-100 title-partite">Risultato</div>
+    <div class="width-100 title-partite"><span>Team 1</span>   {{p['gol1'].length}} - {{p['gol2'].length}}  <span>Team 2</span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+.container{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title{
+  width: 100%;
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: 20px;
+}
+
+.class{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.w-15{
+  width: 15%;
+  border: 1px black solid;
+}
+
+.w-50{
+  width: 50%;
+  border: 1px black solid;
+}

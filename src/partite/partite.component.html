@@ -1,0 +1,68 @@
+<div *ngIf="!log;" class="all-page">
+  <form [formGroup]="pswForm" (ngSubmit)="onSubmit()">
+    <label for="psw">Password:</label>
+    <input type="text" id="psw" name="psw" formControlName="psw"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div *ngIf="log">
+  <div class="content-partite">
+    <div class="title-partite">Aggiungi partita</div>
+    <br>
+    <form class="width-100" (ngSubmit)="add()">
+      <div class="wi-100">
+        <div class="wi-50">
+          <div class="width-100 title-partite">Team 1</div>
+          <div *ngFor="let p of player1">
+            {{p}}
+          </div>
+          <form [formGroup]="team1" (ngSubmit)="add_1()">
+            <select class="select-partite" formControlName="player">
+              <option value={{d.nome}} *ngFor="let d of data"> {{d.nome}}</option>
+            </select><br>
+            <input class="btn-partite" type="submit" value="Aggiungi">
+          </form>
+          <div class="width-100 title-partite">Marcatori</div>
+          <div *ngFor="let p of gol1">
+            {{p}}
+          </div>
+          <form [formGroup]="gol1f" (ngSubmit)="add_g1()">
+            <select class="select-partite" formControlName="player">
+              <option value={{d}} *ngFor="let d of player1"> {{d}}</option>
+            </select><br>
+            <input class="btn-partite" type="submit" value="Aggiungi">
+          </form>
+        </div>
+        <div class="wi-50">
+          <div class="width-100 title-partite">Team 2</div>
+          <div *ngFor="let p of player2">
+            {{p}}
+          </div>
+          <form [formGroup]="team2" (ngSubmit)="add_2()">
+            <select class="select-partite" formControlName="player">
+              <option value={{d.nome}} *ngFor="let d of data"> {{d.nome}}</option>
+            </select><br>
+            <input class="btn-partite" type="submit" value="Aggiungi">
+          </form>
+          <div class="width-100 title-partite">Marcatori</div>
+          <div *ngFor="let p of gol2">
+            {{p}}
+          </div>
+          <form [formGroup]="gol2f" (ngSubmit)="add_g2()">
+            <select class="select-partite" formControlName="player">
+              <option value={{d}} *ngFor="let d of player2"> {{d}}</option>
+            </select><br>
+            <input class="btn-partite" type="submit" value="Aggiungi">
+          </form>
+        </div>
+      </div>
+      <div class="wi-100">
+        <div class="width-100 title-partite">Risultato</div>
+        <div class="width-100 title-partite"><span>Team 1</span>   {{gol1.length}} - {{gol2.length}}  <span>Team 2</span></div>
+      </div>
+      <div class="wi-100">
+        <input class="btn-partite margin-bottom" type="submit" value="Aggiungi">
+      </div>
+    </form>
+  </div>
+</div>

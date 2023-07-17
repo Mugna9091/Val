@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  /*Colori*/
+  --primary-color: #1A3151;
+  --nav-primary-color: #005B7E;
+  --nav-secondary-color: #008896;
+  --nav-dropdown-color: #00B493;
+  --nav-text-color: #FFFFFF;
+  --nav-text-select-color: #C93F8D;
+  --border: black;
+  /*Font*/
+  --font-nav-tile: 'Montserrat', sans-serif;
+  --font-nav-li: 'Open Sans', sans-serif;
+  --font-sub-title: 'Libre Franklin', Helvetica, sans-serif;
+  --font-title: "Josefin Sans",sans-serif;
+  /*Size*/
+  --size-nav: 1.6rem;
+}

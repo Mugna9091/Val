@@ -1,0 +1,17 @@
+<div class="conteiner">
+  <div class="card-conteiner" *ngFor="let d of data">
+    <div class="w-100">
+      <div class="w-30">
+        <a [routerLink]="['statistiche', d.nome]">
+          <div class="title">{{d.nome}}</div>
+          <br>
+          <img class="foto" src={{d.foto}}>
+        </a>
+        <div class="sub-title"></div>
+      </div>
+      <div class="w-70">
+        <div class="title-val">Valutazione: {{d.valutazione}} mil</div>
+      </div>
+    </div>
+  </div>
+</div>

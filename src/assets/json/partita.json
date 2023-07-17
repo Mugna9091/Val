@@ -1,0 +1,138 @@
+[
+  {
+    "player1": [
+      "Sascha Bezzi",
+      "Tommaso Conti",
+      "Sconosciuto",
+      "Tommaso Saccardi"
+    ],
+    "player2": [
+      "Lorenzo Mugnai",
+      "Alessandro Govi",
+      "Sconosciuto",
+      "Elia Checchi"
+    ],
+    "gol1": [
+      "Tommaso Conti",
+      "Tommaso Conti",
+      "Tommaso Conti"
+    ],
+    "gol2": [
+      "Lorenzo Mugnai",
+      "Lorenzo Mugnai",
+      "Alessandro Govi",
+      "Sconosciuto"
+    ],
+    "myDate": "2023-07-13"
+  },
+  {
+    "player1": [
+      "Sconosciuto",
+      "Sconosciuto",
+      "Lorenzo Mugnai"
+    ],
+    "player2": [
+      "Tommaso Saccardi",
+      "Tommaso Conti",
+      "Sascha Bezzi"
+    ],
+    "gol1": [
+      "Sconosciuto",
+      "Sconosciuto"
+    ],
+    "gol2": [
+      "Tommaso Saccardi",
+      "Tommaso Conti"
+    ],
+    "myDate": "2023-07-13"
+  },
+  {
+    "player1": [
+      "Lorenzo Pelagatti",
+      "Sascha Bezzi",
+      "Lorenzo Mugnai"
+    ],
+    "player2": [
+      "Tommaso Saccardi",
+      "Tommaso Conti",
+      "Elia Checchi"
+    ],
+    "gol1": [
+      "Sascha Bezzi"
+    ],
+    "gol2": [
+      "Tommaso Conti",
+      "Tommaso Conti",
+      "Tommaso Conti",
+      "Tommaso Saccardi"
+    ],
+    "myDate": "2023-07-14"
+  },
+  {
+    "player1": [
+      "Sascha Bezzi",
+      "Tommaso Saccardi",
+      "Lorenzo Pelagatti",
+      "Sconosciuto",
+      "Sconosciuto",
+      "Tommaso Ceccarelli"
+    ],
+    "player2": [
+      "Lorenzo Mugnai",
+      "Federico Sestini",
+      "Tommaso Conti",
+      "Mattia Casamenti",
+      "Simone di Pasqua",
+      "Alessandro Govi"
+    ],
+    "gol1": [
+      "Sascha Bezzi",
+      "Sascha Bezzi",
+      "Lorenzo Pelagatti",
+      "Lorenzo Pelagatti"
+    ],
+    "gol2": [
+      "Lorenzo Mugnai",
+      "Lorenzo Mugnai",
+      "Simone di Pasqua",
+      "Alessandro Govi",
+      "Tommaso Conti"
+    ],
+    "myDate": "2023-07-16"
+  },
+  {
+    "player1": [
+      "Sascha Bezzi",
+      "Lorenzo Mugnai",
+      "Tommaso Conti",
+      "Tommaso Saccardi",
+      "Lorenzo Pelagatti"
+    ],
+    "player2": [
+      "Sconosciuto",
+      "Sconosciuto",
+      "Sconosciuto",
+      "Sconosciuto",
+      "Sconosciuto"
+    ],
+    "gol1": [
+      "Lorenzo Mugnai",
+      "Tommaso Saccardi",
+      "Tommaso Saccardi",
+      "Tommaso Saccardi",
+      "Tommaso Conti",
+      "Tommaso Conti",
+      "Tommaso Conti",
+      "Lorenzo Pelagatti",
+      "Lorenzo Pelagatti",
+      "Tommaso Saccardi"
+    ],
+    "gol2": [
+      "Sconosciuto",
+      "Sconosciuto",
+      "Sconosciuto",
+      "Sconosciuto"
+    ],
+    "myDate": "2023-07-16"
+  }
+]
