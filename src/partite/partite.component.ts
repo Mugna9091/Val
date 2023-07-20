@@ -1,9 +1,7 @@
 import {Component} from '@angular/core';
 import {FormBuilder} from '@angular/forms';
-import valData from './../assets/json/val.json'
 import {DatePipe} from '@angular/common';
-import par from "../assets/json/partita.json";
-import {saveAs} from 'file-saver';
+import {Database, set, ref, update, onValue} from "@angular/fire/database";
 
 @Component({
   selector: 'app-partite',
@@ -12,8 +10,8 @@ import {saveAs} from 'file-saver';
   providers: [DatePipe]
 })
 export class PartiteComponent {
-  log = false;
-  para: any = par;
+  log = true;
+  para: any;
   pswForm = this.formBuilder.group({
     psw: ''
   });
@@ -29,7 +27,7 @@ export class PartiteComponent {
   gol2f = this.formBuilder.group({
     player: ''
   });
-  data: any = valData;
+  data: any;
   myDate: any = ""
 
   player1: Array<any> = []
@@ -37,7 +35,17 @@ export class PartiteComponent {
   player2: Array<any> = []
   gol2: Array<any> = []
 
-  constructor(private formBuilder: FormBuilder, private datePipe: DatePipe) {
+  constructor(private formBuilder: FormBuilder, private datePipe: DatePipe, public database: Database) {
+    const starCountRef = ref(this.database, "partite");
+    onValue(starCountRef, (snapshot) => {
+      this.para = snapshot.val();
+    });
+    const starCountRef1 = ref(this.database, "valori");
+    onValue(starCountRef1, (snapshot) => {
+      this.data = snapshot.val();
+    });
+    this.myDate = new Date();
+    this.myDate = this.datePipe.transform(this.myDate, 'yyyy-MM-dd');
   }
 
   onSubmit(): void {
@@ -63,20 +71,17 @@ export class PartiteComponent {
   }
 
   add(): void {
-    const filePath = './assets/json/partite.csv';
-    this.myDate = new Date();
-    this.myDate = this.datePipe.transform(this.myDate, 'yyyy-MM-dd');
-    var data = {
-      "player1": this.player1,
-      "player2": this.player2,
-      "gol1": this.gol1,
-      "gol2": this.gol2,
-      "myDate": this.myDate
-    }
-    // par = data;
-    this.para.push(data)
-    const jsonData = JSON.stringify(this.para);
-    const blob = new Blob([jsonData], {type: 'application/json'});
-    saveAs(blob, "partita.json");
+    const id = this.para.length;
+    set(ref(this.database, "partite/" + id.toString()), {
+      player1: this.player1,
+      player2: this.player2,
+      gol1: this.gol1,
+      gol2: this.gol2,
+      myDate: this.myDate
+    });
+    alert("partita aggiunta")
+  }
+  elimina(){
+    console.log("ELimina")
   }
 }

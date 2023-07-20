@@ -23,6 +23,11 @@
   flex-wrap: wrap;
 }
 
+.w-10{
+  width: 10%;
+  border: 1px black solid;
+}
+
 .w-15{
   width: 15%;
   border: 1px black solid;

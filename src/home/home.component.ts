@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import valData from './../assets/json/val.json'
+import {Component} from '@angular/core';
+import {Database, onValue, ref} from "@angular/fire/database";
 
 @Component({
   selector: 'app-home',
@@ -7,7 +7,12 @@ import valData from './../assets/json/val.json'
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  data: any = valData;
-  ngOnInit() {
+  data: any;
+
+  constructor(public database: Database) {
+    const starCountRef = ref(this.database, "valori");
+    onValue(starCountRef, (snapshot) => {
+      this.data = snapshot.val();
+    });
   }
 }

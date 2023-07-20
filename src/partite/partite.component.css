@@ -1,4 +1,4 @@
-.all-page{
+.all-page {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -12,7 +12,7 @@
   justify-content: center;
 }
 
-.all-page form{
+.all-page form {
   z-index: 1040;
   opacity: 1;
   display: flex;
@@ -20,7 +20,7 @@
   justify-content: center;
 }
 
-.content-partite{
+.content-partite {
   width: 90%;
   margin: 68px 5% 0 5%;
   display: flex;
@@ -32,7 +32,7 @@
   text-transform: uppercase;
 }
 
-.title-partite{
+.title-partite {
   width: 100%;
   text-align: center;
   font-family: var(--font-title);
@@ -40,11 +40,11 @@
   color: white;
 }
 
-.width-100{
+.width-100 {
   width: 100%;
 }
 
-.wi-100{
+.wi-100 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -52,19 +52,19 @@
   flex-wrap: wrap;
 }
 
-.wi-50{
+.wi-50 {
   width: 50%;
   text-align: center;
 }
 
-.select-partite{
+.select-partite {
   min-width: 30%;
   height: 30px;
   background-color: white;
   border-radius: 4px;
 }
 
-.btn-partite{
+.btn-partite {
   margin-top: 10px;
   min-width: 25%;
   height: 30px;
@@ -74,10 +74,18 @@
   border: none;
 }
 
-.margin-bottom{
+.margin-bottom {
   margin-bottom: 10px;
 }
 
-.title-partite span{
+.title-partite span {
   color: #1A3151;
+}
+
+.bg-w {
+  background: white !important;
+}
+
+.c-black {
+  color: black !important;
 }

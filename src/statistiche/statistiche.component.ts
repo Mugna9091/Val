@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute, ParamMap} from '@angular/router';
-import valData from "../assets/json/val.json";
+import {Database, set, ref, update, onValue} from "@angular/fire/database";
 
 @Component({
   selector: 'app-statistiche',
@@ -8,7 +8,7 @@ import valData from "../assets/json/val.json";
   styleUrls: ['./statistiche.component.css']
 })
 export class StatisticheComponent implements OnInit {
-  data: any = valData;
+  data: any;
   name: string | null = ""
   foto = ""
   valutazione = ""
@@ -19,7 +19,11 @@ export class StatisticheComponent implements OnInit {
   passaggio=""
   fisico=""
 
-  constructor(private route: ActivatedRoute) {
+  constructor(private route: ActivatedRoute, public database: Database) {
+    const starCountRef = ref(this.database, "valori");
+    onValue(starCountRef, (snapshot) => {
+      this.data = snapshot.val();
+    });
   }
 
   ngOnInit(): void {

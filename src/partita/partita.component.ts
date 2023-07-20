@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import par from "../assets/json/partita.json";
 import valData from "../assets/json/val.json";
 import {FormBuilder} from "@angular/forms";
 import {DatePipe} from "@angular/common";
+import {Database, set, ref, update, onValue} from "@angular/fire/database";
 
 @Component({
   selector: 'app-partita',
@@ -10,12 +10,24 @@ import {DatePipe} from "@angular/common";
   styleUrls: ['./partita.component.css']
 })
 export class PartitaComponent {
-  para: any = par;
-  constructor() {
-    for (let i=0; i<this.para.length; i++){
-      console.log(this.para[i]['player1'])
-    }
-    console.log(this.para)
+  para: any;
+  constructor(public database: Database) {
+    // for (let i=0; i<this.para.length; i++){
+    //   console.log(this.para[i]['player1'])
+    // }
+    // console.log(this.para)
+    const starCountRef = ref(this.database, "partite");
+    onValue(starCountRef, (snapshot) => {
+      this.para = snapshot.val();
+      for(let i=0; i<this.para.length; i++){
+        if(this.para[i]["gol1"]==undefined){
+          this.para[i]["gol1"] = []
+        }
+        if(this.para[i]["gol2"]==undefined){
+          this.para[i]["gol2"] = []
+        }
+      }
+    });
   }
 
 

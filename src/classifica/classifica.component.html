@@ -1,15 +1,34 @@
 <div class="container">
   <div class="class">
-    <div class="title">Classifica</div>
-    <div class="w-15">#</div>
+    <div class="title">Classifica Completa</div>
+    <div class="w-10">#</div>
     <div class="w-50">Nome</div>
-    <div class="w-15">Gol</div>
+    <div class="w-10">Gol</div>
     <div class="w-15">Partite</div>
+    <div class="w-15">Vinte</div>
   </div>
   <div class="class" *ngFor="let p of dict1">
-    <div class="w-15">{{p[0]}}</div>
+    <div class="w-10">{{p[0]}}</div>
     <div class="w-50">{{p[1]}}</div>
-    <div class="w-15">{{p[2]}}</div>
+    <div class="w-10">{{p[2]}}</div>
     <div class="w-15">{{p[3]}}</div>
+    <div class="w-15">{{p[4]}}</div>
+  </div>
+</div>
+<div class="container">
+  <div class="class">
+    <div class="title">Classifica Settimanale dal {{date_start}} al {{date_finish}}</div>
+    <div class="w-10">#</div>
+    <div class="w-50">Nome</div>
+    <div class="w-10">Gol</div>
+    <div class="w-15">Partite</div>
+    <div class="w-15">Vinte</div>
+  </div>
+  <div class="class" *ngFor="let p of dict1_week">
+    <div class="w-10">{{p[0]}}</div>
+    <div class="w-50">{{p[1]}}</div>
+    <div class="w-10">{{p[2]}}</div>
+    <div class="w-15">{{p[3]}}</div>
+    <div class="w-15">{{p[4]}}</div>
   </div>
 </div>

@@ -1,138 +1,318 @@
-[
-  {
-    "player1": [
-      "Sascha Bezzi",
-      "Tommaso Conti",
-      "Sconosciuto",
-      "Tommaso Saccardi"
-    ],
-    "player2": [
-      "Lorenzo Mugnai",
-      "Alessandro Govi",
-      "Sconosciuto",
-      "Elia Checchi"
-    ],
-    "gol1": [
-      "Tommaso Conti",
-      "Tommaso Conti",
-      "Tommaso Conti"
-    ],
-    "gol2": [
-      "Lorenzo Mugnai",
-      "Lorenzo Mugnai",
-      "Alessandro Govi",
-      "Sconosciuto"
-    ],
-    "myDate": "2023-07-13"
-  },
-  {
-    "player1": [
-      "Sconosciuto",
-      "Sconosciuto",
-      "Lorenzo Mugnai"
-    ],
-    "player2": [
-      "Tommaso Saccardi",
-      "Tommaso Conti",
-      "Sascha Bezzi"
-    ],
-    "gol1": [
-      "Sconosciuto",
-      "Sconosciuto"
-    ],
-    "gol2": [
-      "Tommaso Saccardi",
-      "Tommaso Conti"
-    ],
-    "myDate": "2023-07-13"
-  },
-  {
-    "player1": [
-      "Lorenzo Pelagatti",
-      "Sascha Bezzi",
-      "Lorenzo Mugnai"
-    ],
-    "player2": [
-      "Tommaso Saccardi",
-      "Tommaso Conti",
-      "Elia Checchi"
-    ],
-    "gol1": [
-      "Sascha Bezzi"
-    ],
-    "gol2": [
-      "Tommaso Conti",
-      "Tommaso Conti",
-      "Tommaso Conti",
-      "Tommaso Saccardi"
-    ],
-    "myDate": "2023-07-14"
-  },
-  {
-    "player1": [
-      "Sascha Bezzi",
-      "Tommaso Saccardi",
-      "Lorenzo Pelagatti",
-      "Sconosciuto",
-      "Sconosciuto",
-      "Tommaso Ceccarelli"
-    ],
-    "player2": [
-      "Lorenzo Mugnai",
-      "Federico Sestini",
-      "Tommaso Conti",
-      "Mattia Casamenti",
-      "Simone di Pasqua",
-      "Alessandro Govi"
-    ],
-    "gol1": [
-      "Sascha Bezzi",
-      "Sascha Bezzi",
-      "Lorenzo Pelagatti",
-      "Lorenzo Pelagatti"
-    ],
-    "gol2": [
-      "Lorenzo Mugnai",
-      "Lorenzo Mugnai",
-      "Simone di Pasqua",
-      "Alessandro Govi",
-      "Tommaso Conti"
-    ],
-    "myDate": "2023-07-16"
-  },
-  {
-    "player1": [
-      "Sascha Bezzi",
-      "Lorenzo Mugnai",
-      "Tommaso Conti",
-      "Tommaso Saccardi",
-      "Lorenzo Pelagatti"
-    ],
-    "player2": [
-      "Sconosciuto",
-      "Sconosciuto",
-      "Sconosciuto",
-      "Sconosciuto",
-      "Sconosciuto"
-    ],
-    "gol1": [
-      "Lorenzo Mugnai",
-      "Tommaso Saccardi",
-      "Tommaso Saccardi",
-      "Tommaso Saccardi",
-      "Tommaso Conti",
-      "Tommaso Conti",
-      "Tommaso Conti",
-      "Lorenzo Pelagatti",
-      "Lorenzo Pelagatti",
-      "Tommaso Saccardi"
-    ],
-    "gol2": [
-      "Sconosciuto",
-      "Sconosciuto",
-      "Sconosciuto",
-      "Sconosciuto"
-    ],
-    "myDate": "2023-07-16"
-  }
-]
+{
+  "partite": [
+    {
+      "player1": [
+        "Sascha Bezzi",
+        "Tommaso Conti",
+        "Sconosciuto",
+        "Tommaso Saccardi"
+      ],
+      "player2": [
+        "Lorenzo Mugnai",
+        "Alessandro Govi",
+        "Sconosciuto",
+        "Elia Checchi"
+      ],
+      "gol1": [
+        "Tommaso Conti",
+        "Tommaso Conti",
+        "Tommaso Conti"
+      ],
+      "gol2": [
+        "Lorenzo Mugnai",
+        "Lorenzo Mugnai",
+        "Alessandro Govi",
+        "Sconosciuto"
+      ],
+      "myDate": "2023-07-13"
+    },
+    {
+      "player1": [
+        "Sconosciuto",
+        "Sconosciuto",
+        "Lorenzo Mugnai"
+      ],
+      "player2": [
+        "Tommaso Saccardi",
+        "Tommaso Conti",
+        "Sascha Bezzi"
+      ],
+      "gol1": [
+        "Sconosciuto",
+        "Sconosciuto"
+      ],
+      "gol2": [
+        "Tommaso Saccardi",
+        "Tommaso Conti"
+      ],
+      "myDate": "2023-07-13"
+    },
+    {
+      "player1": [
+        "Lorenzo Pelagatti",
+        "Sascha Bezzi",
+        "Lorenzo Mugnai"
+      ],
+      "player2": [
+        "Tommaso Saccardi",
+        "Tommaso Conti",
+        "Elia Checchi"
+      ],
+      "gol1": [
+        "Sascha Bezzi"
+      ],
+      "gol2": [
+        "Tommaso Conti",
+        "Tommaso Conti",
+        "Tommaso Conti",
+        "Tommaso Saccardi"
+      ],
+      "myDate": "2023-07-14"
+    },
+    {
+      "player1": [
+        "Sascha Bezzi",
+        "Tommaso Saccardi",
+        "Lorenzo Pelagatti",
+        "Sconosciuto",
+        "Sconosciuto",
+        "Tommaso Ceccarelli"
+      ],
+      "player2": [
+        "Lorenzo Mugnai",
+        "Federico Sestini",
+        "Tommaso Conti",
+        "Mattia Casamenti",
+        "Simone di Pasqua",
+        "Alessandro Govi"
+      ],
+      "gol1": [
+        "Sascha Bezzi",
+        "Sascha Bezzi",
+        "Lorenzo Pelagatti",
+        "Lorenzo Pelagatti"
+      ],
+      "gol2": [
+        "Lorenzo Mugnai",
+        "Lorenzo Mugnai",
+        "Simone di Pasqua",
+        "Alessandro Govi",
+        "Tommaso Conti"
+      ],
+      "myDate": "2023-07-16"
+    },
+    {
+      "player1": [
+        "Sascha Bezzi",
+        "Lorenzo Mugnai",
+        "Tommaso Conti",
+        "Tommaso Saccardi",
+        "Lorenzo Pelagatti"
+      ],
+      "player2": [
+        "Sconosciuto",
+        "Sconosciuto",
+        "Sconosciuto",
+        "Sconosciuto",
+        "Sconosciuto"
+      ],
+      "gol1": [
+        "Lorenzo Mugnai",
+        "Tommaso Saccardi",
+        "Tommaso Saccardi",
+        "Tommaso Saccardi",
+        "Tommaso Conti",
+        "Tommaso Conti",
+        "Tommaso Conti",
+        "Lorenzo Pelagatti",
+        "Lorenzo Pelagatti",
+        "Tommaso Saccardi"
+      ],
+      "gol2": [
+        "Sconosciuto",
+        "Sconosciuto",
+        "Sconosciuto",
+        "Sconosciuto"
+      ],
+      "myDate": "2023-07-16"
+    }
+  ],
+  "valori": [
+    {
+      "nome": "Sascha Bezzi",
+      "foto": "assets/Image/sascha.png",
+      "valutazione": 18,
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Lorenzo Govi",
+      "foto": "assets/Image/govi.png",
+      "valutazione": 104,
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Mattia Casamenti",
+      "foto": "assets/Image/tia.png",
+      "valutazione": 0.5,
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Tommaso Saccardi",
+      "foto": "assets/Image/sacca.png",
+      "valutazione": 85,
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Tommaso Conti",
+      "foto": "assets/Image/conti.png",
+      "valutazione": 100,
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Federico Sestini",
+      "foto": "assets/Image/fede.png",
+      "valutazione": "20",
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Lorenzo Mugnai",
+      "foto": "assets/Image/Mugna.png",
+      "valutazione": "56",
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Lorenzo Borelli",
+      "foto": "assets/Image/bori.png",
+      "valutazione": "48",
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Tommaso Ceccarelli",
+      "foto": "assets/Image/Bera.png",
+      "valutazione": "8",
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Elia Checchi",
+      "foto": "assets/Image/elia.png",
+      "valutazione": 10,
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Simone di Pasqua",
+      "foto": "assets/Image/simo.png",
+      "valutazione": 45,
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Emiliano Mazzeschi",
+      "foto": "assets/Image/emi.png",
+      "valutazione": 16,
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Matteo Guidi",
+      "foto": "assets/Image/guidi.png",
+      "valutazione": "130",
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Alessandro Govi",
+      "foto": "assets/Image/alle.png",
+      "valutazione": 22,
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Lorenzo Pelagatti",
+      "foto": "assets/Image/pela.png",
+      "valutazione": 103,
+      "velocita": "...",
+      "dribbling": "...",
+      "tiro": "...",
+      "difesa": "...",
+      "passaggio": "...",
+      "fisico": "..."
+    },
+    {
+      "nome": "Sconosciuto",
+      "foto": "assets/Image/sconosciuto.png",
+      "valutazione": "",
+      "velocita": "",
+      "dribbling": "",
+      "tiro": "",
+      "difesa": "",
+      "passaggio": "",
+      "fisico": ""
+    }
+  ]
+}
